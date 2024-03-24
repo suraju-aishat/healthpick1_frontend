@@ -51,6 +51,8 @@
          placeholder="enter username"
         />
     
+        <br><br>
+
         <label for="password">Password</label>
         <input
         type="password"
@@ -59,15 +61,256 @@
         placeholder="Enter your password"
         />
 
-        <input 
-        type="submit"
-        value="Submit"
+        <br><br>
+
+        <label for="email">email</label>
+        <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
         />
 
+        <br><br>
 
+        <label for="Quantity">Quantity</label>
+        <input
+        type="number"
+        id="quantity"
+        name="quantity"
+        min="1"
+        max="11"
+        />
+
+        <br><br>
+
+        <label for="phone">Phone Number</label>
+        <input
+        type="tel"
+        id="phone"
+        name="phone"
+        pattern="(0-9)[11]"
+        minlength="11"
+        maxlength="11"
+        placeholder="XXX-XXX-XXX-XXX"
+        />
+
+        <br><br>
+
+        <input
+        type="checkbox"
+        id="checkbox"
+        name="subscribe"
+        />
+        <label for="checkbox">Subscribe to news letter</label>
+
+        <br><br>
+
+        <input
+        type="radio"
+        id="radio"
+        value="male"
+        />
+        <label for="radio">Male</label>
+        
+        <input
+        type="radio"
+        id="radio"
+        value="Female"
+        />
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <label for="date">Date of Birth</label>
+        <input
+        type="date"
+        id="date"
+        name="date"
+        />
+
+        <br><br>
+
+        <label for="file">Select a file</label>
+        <input
+        type="file"
+        id="file"
+        accept=".jpng .png .jpg .svg"
+        name="file"
+        />
+
+        <br><br>
+        
+        <button type="button">General</button>
+        <input type="button" value="submit"/>
+        <input type="submit"value="Submit"/>
+
+
+        
+
+
+
+
+
+        <!--https://github.com/suraju-aishat/healthpick1_frontend.git -->
 
 
     </form>
+
+    
+    <!--Authentication Form-->
+    <br><br><br>
+    
+    <h2>AUTHENTICATION FORM</h2>
+    <p>Fill all details</p>
+    <br>
+    <form action="/save-form" method="post">
+        
+        <label for="fullname">Fullname</label>
+        <input
+        type="text"
+        id="fullname"
+        name="fullname"
+        placeholder="Enter your Fullname"
+        />
+
+        <br><br>
+
+        <label for="phone">Phone Number</label>
+        <input
+        type="tel"
+        id="phone"
+        name="phone"
+        pattern="0-9"
+        minlength="11"
+        maxlength="11"
+        placeholder="XXX-XXX-XXX-XXX"
+        />
+
+        <br><br>
+
+        <label for="email">Email</label>
+        <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        />
+
+        <br><br>
+
+        <label for="country">Country</label>
+        <input
+        type="text"
+        id="country"
+        name="country"
+        placeholder="country"
+        />
+
+        <br><br>
+
+        <label for="password">Password</label>
+        <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        />
+
+        <br><br>
+        <input type="submit"value="Submit"/>
+
+    </form>
+
+
+    <!--Form 3-->
+
+    <br><br>
+
+    <h2>BANK FORM</h2>
+    <p>Fill all details</p>
+    <br>
+
+    <form action="save-form" method="post">
+
+        <label for="full name">Full Name</label>
+        <input
+        type="text"
+        id="full name"
+        name="full name"
+        placeholder="Enter your full name"
+        />
+    
+        <br><br>
+
+        <label for="bvn">BVN</label>
+        <input
+        type="number"
+        id="bvn"
+        name="bvn"
+        placeholder="enter your bvn"
+        />
+
+        <br><br>
+
+        <label for="email">Email</label>
+        <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="enter your email"
+        />
+
+        <br><br>
+
+        <label for="location">Location</label>
+        <input
+        type="text"
+        id="location"
+        name="location"
+        placeholder="enter your location"
+        />
+
+        <br><br>
+
+        <label for="nin">NIN</label>
+        <input
+        type="number"
+        id="nin"
+        name="nin"
+        placeholder="enter your nin"
+        />
+
+        <br><br>
+
+        <label for="phone number">Phone Number</label>
+        <input
+        type="tel"
+        id="phone number"
+        name="phone number"
+        pattern="(0-9)"
+        minlength="11"
+        maxlength="11"
+        placeholder="XXX-XXX-XXX-XXX"
+        />
+
+        <br><br>
+
+        <label for="file">Select a file</label>
+        <input
+        type="file"
+        id="file"
+        accept=".jpng .png .jpg .svg"
+        name="file"
+        />
+
+        <br><br>
+        <input type="submit"value="Submit"/>
+
+
+    </form>
+
 
 </body>
 
