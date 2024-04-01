@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #FFFFFF;
 }
 
 
@@ -41,21 +42,21 @@ div p, h1 {
     background-color: crimson;
 }*/
 
-ul > li {
+/*ul > li {
     list-style-type: none;
-    color: black;
-    font-style: italic;
-}
+    font-style:  normal;
+}*/
 
 
-nav ul {
+/*nav ul {
     margin: 0;
     padding: 20px;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    background-color: #000000;
-}
+    background-color: #FFFFFF;
+    border: 1px solid #333333;
+}*/
 
 nav ul li {
     display: inline-block;
@@ -65,12 +66,132 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #000000;
     padding: 10px;
-    border-radius: 10px;
-    background-color: #f2f2f2;
+    /*border-radius: 10px;
+    background-color: #f2f2f2;*/
 }
 
 nav ul li a:hover{
     background-color: #ddd;
+}
+
+/*div {
+    height: 500px;
+    padding: 20px;
+    border: 0px solid #333333;
+    margin: 0px;
+}*/
+
+
+
+/*FIRST TYPE OF GRID*/
+/*.grid-container {
+    display: grid;
+    grid-template-rows: 500px 500px;
+}*/
+
+.grid-item {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+#grid1 {
+    background-image: url(./img/w2.jpg);
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-size: cover;
+    
+}
+
+
+/*SECOND APPLICATION OF GRID*/
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top-row, .bottom-row{
+    
+    /*arranges horizontally*/
+    display: flex;
+}
+
+.box {
+    width: 50%;
+    border: 1px solid #000000;
+    padding: 10px;
+    height: 100vh;
+
+}
+
+/* CSS FLOAT */
+
+.float-container {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.floated {
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    float: right;
+}
+
+.content {
+    margin-right: 120px;
+}
+
+.positioned {
+    background-color: aqua;
+    top: 50px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.positioned2 {
+    background-color: red;
+    top: 50px;
+    left: 100px;
+    right: ;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}
+
+.Box-animation {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation: grow-shrink 2s infinite alternate;
+    margin-left: 300px;
+}
+
+.text1 {
+    font-size: 72px;
+    line-height: 1;
+}
+
+@keyframes grow-shrink {
+
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+.highlights {
+
+    color: "red"
 }

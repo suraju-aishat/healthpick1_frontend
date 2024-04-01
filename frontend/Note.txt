@@ -1,0 +1,64 @@
+Arithmetic operators + * - /
+Comparisons operators == != > <
+Logical operators
+        AND - && both of them
+        OR - || one of them
+        NOT - ! either one of them or none
+
+Assignment operators
+
+        assign =
+        add and assign +=
+        subtract and assign -=
+
+Unary operators
+
+        decrement --
+        increment ++ 
+
+Tinary Operators are conditional operators i.e shorthand for if statement
+
+        condition ? value1 : value2
+
+CONTROL FLOW
+        1. Conditional Statement if...else statement
+        2. Loops - Its loops through until a condition is met for,while, do..while
+
+NUMBERS 
+        .toFixed()
+        Number.isInteger()
+        Math.floor()
+        Math.max
+
+
+ARRAYS AND FUNCTIONS
+
+ARRAYS
+        similar items
+        items have an index number
+        array counts from 0
+        add items
+        remove items
+        change items
+        anything inside a square bracket[]
+
+
+FUNCTIONS
+        take input (parameters or arguments)
+        give output
+        helps to divide your code into modules
+        makes your code clean
+        it's reuseable
+        items inside an array are called Elements
+        arrays can have the same and different data types
+
+
+
+ARRAY METHODS
+        .push()- add elements to an array
+        .pop()- remove element from an array
+        .splice()- remove and element from a specific index
+        .concat()- helps to join two arrays
+        .map()- helps to map out items in an array
+        .sort()- sorts elements
+        .filter()- filter out elements that meets certain condition
